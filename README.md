@@ -18,17 +18,17 @@ was the best-performing delay-duration regressor.
 
 ## Files
 
-- `ML_Project.ipynb` and `ML_Project_1.ipynb` contain the analysis and modelling.
+- `flight-delay-prediction.ipynb` contains the analysis and modelling.
 - `flight-delay-project-report.pdf` is the 13-page project report.
 
 ## Running it
 
-The source datasets are not included. The notebooks expect these files under a
-`Data (CSV)` directory:
+The source datasets are not included. The notebook expects these files under a
+`data` directory:
 
 ```text
-Data (CSV)/Flight_data.csv
-Data (CSV)/weather_data.csv
+data/flight-data.csv
+data/weather-data.csv
 ```
 
 After supplying compatible data, install Jupyter, pandas, scikit-learn,
